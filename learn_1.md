@@ -72,4 +72,18 @@ Le cloud computing est la fourniture de ressources informatiques via internet à
 
 ---
 
-## 
+## modèle de responsabilité partagée (le plus important)
+1. AWS ne gère pas tout (toi non plus)
+
+2. AWS est responsable de :
+- Datacenters
+- Physique des serveurs
+- Matériel réseau
+- Sécurité Physique
+
+3. Toi tu es responsable de :
+- Tes utilisateurs (IAM)
+- Tes mots de passe
+- Tes applications
+- Tes données
+- Tes régles frirewall
