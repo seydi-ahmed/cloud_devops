@@ -29,6 +29,8 @@ Le cloud computing est la fourniture de ressources informatiques via internet à
     - Google Compute Engine
     - Azure VM
 
+- --> Tu loues des machines virtuelles, du stockage, des réseaux. Tu gères l'OS et tout ce qui est dessus. (Ex: AWS EC2, Azure VMs).
+
 ---
 
 2. PaaS : Platform as Service --> utilisé par les développeurs simples
@@ -44,12 +46,16 @@ Le cloud computing est la fourniture de ressources informatiques via internet à
     - Heruko
     - Google App Engine
 
+- --> Tu déploies ton code. Le fournisseur gère le serveur, l'exécution, la base de données. (Ex: Google App Engine, Heroku)
+
 ---
 
 3. SaaS : Software as Service --> utilisé par tout le monde
 - Tu utilises juste un logiciel en ligne
 
 - Exemples : Gmail, Dropbox, Google Docs, Office 365
+
+- --> Tu utilises simplement une application en ligne, tout est géré par le fournisseur. (Ex: Gmail, Salesforce, Microsoft 365)
 
 ---
 
@@ -63,11 +69,13 @@ Le cloud computing est la fourniture de ressources informatiques via internet à
     - si une AZ tombe, l'autre fonctionne
     - haute disponibilité
 
-3. EDGE :
+3. EDGE (périphérie) :
 - serveurs de cache
+- point de présence (PoP)
 - rapprochent le contenu de l'utilisateur
 - utilisé par :
     - CloudFront (CDN)
+    - Cloudflare
     - Latence ultra faible
 
 ---
@@ -87,3 +95,5 @@ Le cloud computing est la fourniture de ressources informatiques via internet à
 - Tes applications
 - Tes données
 - Tes régles frirewall
+
+==> Plus on monte vers le SaaS, plus la responsabilité du client diminue
