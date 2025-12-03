@@ -6,7 +6,7 @@ git config --global user.name "seydi-ahmed"
 
 git config credential.helper store
 git add .
-git commit -m "semaine 1"
+git commit -m "learn 1"
 
 git push gitea
 git push github
