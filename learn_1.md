@@ -28,3 +28,48 @@ Le cloud computing est la fourniture de ressources informatiques via internet à
     - AWS EC2
     - Google Compute Engine
     - Azure VM
+
+---
+
+2. PaaS : Platform as Service --> utilisé par les développeurs simples
+- Tu donnes juste ton code
+
+- Le fournisseur gère:
+    - Serveurs
+    - Sécurité
+    - Mise à jour
+
+- Exemple:
+    - AWS Elastic Beanstalk
+    - Heruko
+    - Google App Engine
+
+---
+
+3. SaaS : Software as Service --> utilisé par tout le monde
+- Tu utilises juste un logiciel en ligne
+
+- Exemples : Gmail, Dropbox, Google Docs, Office 365
+
+---
+
+## Régions, AZ, EDGE :
+1. Région --> une zone géographique
+
+2. Availability Zone (AZ) :
+- Une région contient plusieurs AZ
+- Chaque AZ = datacenter indépendant
+- Avantages :
+    - si une AZ tombe, l'autre fonctionne
+    - haute disponibilité
+
+3. EDGE :
+- serveurs de cache
+- rapprochent le contenu de l'utilisateur
+- utilisé par :
+    - CloudFront (CDN)
+    - Latence ultra faible
+
+---
+
+## 
