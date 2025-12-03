@@ -6,7 +6,7 @@ git config --global user.name "seydi-ahmed"
 
 git config credential.helper store
 git add .
-git commit -m "Perfect Number"
+git commit -m "IaaS"
 
 git push gitea
 git push github
